@@ -1,0 +1,31 @@
+{
+	monsters:{
+		"DELV" : [
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:32,
+				name:"SPIDER",
+				speed:0.011,
+				maxHp:4,
+				atk:4,
+				bloodType:Insect,
+				bloodPoolDecal:{
+					"tex":25,
+					"artType":"sprite",
+				},
+				bloodSplatterDecal:{isActive:true},
+				stepHeight: 1.0,
+				canOpenDoors:false,
+				alertSound:"mobs/spider/en_spider_alert_01.mp3,mobs/spider/en_spider_alert_02.mp3,mobs/spider/en_spider_alert_03.mp3",
+				attackSound:"mobs/spider/en_spider_attack_01.mp3,mobs/spider/en_spider_attack_02.mp3,mobs/spider/en_spider_attack_03.mp3",
+				dieSound:"mobs/spider/en_spider_die_01.mp3,mobs/spider/en_spider_die_02.mp3,mobs/spider/en_spider_die_03.mp3",
+				hurtSound:"mobs/spider/en_spider_hurt_01.mp3,mobs/spider/en_spider_hurt_02.mp3,mobs/spider/en_spider_hurt_03.mp3",
+				idleSound:"mobs/spider/en_spider_idle_01.mp3,mobs/spider/en_spider_idle_02.mp3,mobs/spider/en_spider_idle_03.mp3",
+				walkAnimation: { start: 32, end: 35, speed: 30 },
+				attackAnimation: { start: 36, end: 44, speed: 30, actions:{"39":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				hurtAnimation: { start: 45, end: 48, speed: 22 },
+				spriteAtlas: "DELV_Mon"
+			},
+		]
+	}
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "columns": 4,
+        "filename": "guns.png",
+        "scale": 0.5,
+        "name": "example_guns",
+        "y_offset": 0.25
+    },
+	{
+        "columns": 16,
+        "filename": "sprites/enemies/monsters.png",
+        "scale": 0.5,
+        "name": "DELV_Mon",
+        "y_offset": 0.25
+    }
+]
